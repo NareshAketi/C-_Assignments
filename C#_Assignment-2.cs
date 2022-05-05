@@ -85,7 +85,7 @@ namespace oopsassignment
             try
             {
 
-                Employeedteails employee = new Employeedetails();
+                Employeedetails employee = new Employeedetails();
                 employee.Getdetails();                
                 double gsalary = employee.Grosssalary();
                 Console.WriteLine("Employee Net Salary is {0}",gsalary);
